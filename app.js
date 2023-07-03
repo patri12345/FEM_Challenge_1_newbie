@@ -37,15 +37,7 @@ function cargarDatos(){
                 }
             })
         }
-        // datos.forEach(element => {
-        //     console.log(element.category);
-        //     console.log(element.score);
-        //     console.log(element.icon);
-
-        //     const item = document.querySelectorAll('.item');
-        //     console.log(item[0].children[0].children[1]);
-        // });
-
+        
     })
 
 }
