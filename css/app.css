@@ -37,6 +37,8 @@ body {
         height: 500px;
         margin: 100px auto;
         display: flex;
+        border-radius: 30px;
+        box-shadow: 10px 10px 22px 3px rgba(171,164,171,0.33);
     }
 
 }
@@ -137,6 +139,19 @@ body {
     background-color: var(--pale-blue);
     margin-bottom: 20px;
     border-radius: 10px;
+}
+.item:nth-child(1){
+    background-color: hsla(0, 100%, 67%,.1);
+}
+.item:nth-child(2){
+    background-color: hsla(39, 100%, 56%,.1);
+}
+
+.item:nth-child(3){
+    background-color: hsla(166, 100%, 37%,.1);
+}
+.item:nth-child(4){
+    background-color: hsla(234, 85%, 45%.1);
 }
 
 .izquierda{
